@@ -70,13 +70,13 @@ $resultados = $db->query($sql);
 	<p class="container-fluid">Insira seus dados</p>
 	<form name="form_edit" action="edit.php" method="GET" class="container-fluid" onsubmit="return editar2()">
 	  <input type="hidden" name="pessoa_id" value="<?php echo $id; ?>" id="pessoa_id">
-	  <label>Nome:</label><br/>
+	  <b><label>Nome:</label></b><br/>
 	  <input type="text" name="nome" value="<?php echo $nome; ?>" size="21" id="nome">
 	  <br/><br/>
-	  <label>Contato:</label><br/>
+	  <b><label>Contato:</label></b><br/>
 	  <input type="tel" name="num_pessoa" value="<?php echo $num_pessoa; ?>" size="21" maxlength="9" id="num_pessoa">
 	  <br/><br/>
-	  <label>Endereço:</label><br/>
+	  <b><label>Endereço:</label></b><br/>
 	  <input type="text" name="end_pessoa" value="<?php echo $end_pessoa; ?>" size="21" id="end_pessoa">
 	  <br/><br/>
 	  <input type="submit" class="btn btn-light btn-sm" name="editar" id="editar" value="Confirmar Alteração">
