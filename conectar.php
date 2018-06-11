@@ -1,5 +1,6 @@
 /**
  * Conexão com o banco de dados
+ * Adicionando mais comentários
  */
 
 <?php
