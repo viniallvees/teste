@@ -55,6 +55,9 @@ error_reporting(E_ALL);
 
 include_once("conectar.php");
 
+/**
+* Comando para inserir os dados no formulário de edição.
+*/
 $id = $_GET['id'];
 $nome = $_GET['nome'];
 $num_pessoa = $_GET['num_pessoa'];
