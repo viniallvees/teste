@@ -1,9 +1,8 @@
-/**
- * Conexão com o banco de dados
- * Adicionando mais comentários
- */
-
 <?php
+/** 
+* Conexão com o banco de dados
+* Adicionando mais comentários
+*/
 	ini_set('display_errors',1);
 	error_reporting(E_ALL);
 
