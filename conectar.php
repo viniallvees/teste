@@ -1,3 +1,7 @@
+/**
+ * Conexão com o banco de dados
+ */
+
 <?php
 	ini_set('display_errors',1);
 	error_reporting(E_ALL);
